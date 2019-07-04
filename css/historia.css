@@ -1,0 +1,69 @@
+	
+body {
+	background-image: url('../img/fundoterramedia.jpg');
+	background-attachment: fixed;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-color:black;
+}		
+
+		
+}
+h1{		
+	font-size:20px;
+	font-family:Arial;			
+}
+
+.sauron { border: solid ;float: left; margin: 10px 20px 20px ; }
+	
+div#lista{
+	border-style: double;
+	border-width: 10px;
+	border-color: black;
+	font-size:20px;
+	font-family: Arial;	
+	background-color:#8B4500;
+}
+		
+div#conteudo {
+	background-color:#8B4500;
+	overflow: auto;
+	border: 10px double black;			
+}
+
+
+ooter a:hover { color: #dddddd; text-decoration: underline; }
+footer div {
+		flex: 80%;
+}
+		
+div#anel{
+	border: 10px double #000000;
+	padding: 8px;
+	background: url(um-anel.png);
+	background-repeat: no-repeat;
+	background-origin: padding-box;		
+	background-color:#8B4500
+					
+}
+		
+.anel{border:solid; float:left; margin: 10px 20px 20px;}
+			
+
+		/* Rodapé */
+footer {
+	padding: 20px;
+	text-align: center;
+	background: #000000;
+	display: flex;
+	color: #ffffff;
+}
+footer a {
+	flex: 10%;
+	color: #ffffff;
+	text-decoration: none
+}
+footer a:hover { color: #dddddd; text-decoration: underline; }
+footer div {
+	flex: 80%;
+}

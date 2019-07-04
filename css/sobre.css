@@ -1,0 +1,42 @@
+		
+	
+
+.flexbox {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+			
+}
+.flexbox,
+.flexbox div {
+		box-sizing: border-box;
+}
+
+.b75,
+.b50,
+.b33,
+.b25 {
+		border: 5px solid #000000;
+		padding: 10px;
+		background: #8B4500;
+	
+}
+.b75 {
+		flex: 75%; 
+}
+.b50 {
+		flex: 50%;
+}
+.b33 {
+	flex: 33.33%;
+}
+.b25 {
+	flex: 25%;
+}
+
+img{ display: block;
+    margin-left: auto;
+    margin-right: auto ;
+
+}
